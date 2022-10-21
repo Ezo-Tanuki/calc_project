@@ -3,50 +3,43 @@ def operation(f, s, opt):
         if opt == '+':
             res = f+s
             print(f'{f}{opt}{s} = {res}')
-            f = res
-            return f
+            return res
             
 
         if opt == '-':
             res = f-s
             print(f'{f}{opt}{s} = {res}')
-            f = res
-            return f
+            return res
             
 
         if opt == '*':
             res = f*s
             print(f'{f}{opt}{s} = {res}')
-            f = res
-            return f
+            return res
             
 
         if opt == '/':
             res = f/s
             print(f'{f}{opt}{s} = {res}')
-            f = res
-            return f
+            return res
             
 
         if opt == '//':
             res = f//s
             print(f'{f}{opt}{s} = {res}')
-            f = res
-            return f
+            return res
             
 
         if opt == '%' or opt == 'mod':
             res = f%s
             print(f'{f}{opt}{s} = {res}')
-            f = res
-            return f
+            return res
             
 
         if opt == '**':
             res = f**s
             print(f'{f}{opt}{s} = {res}')
-            f = res
-            return f
+            return res
             
 
         else:
