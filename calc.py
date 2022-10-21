@@ -35,7 +35,7 @@ def operation(f, s, opt):
             return f
             
 
-        if opt == ('%' or 'mod'):
+        if opt == '%' or opt == 'mod':
             res = f%s
             print(f'{f}{opt}{s} = {res}')
             f = res
@@ -58,7 +58,7 @@ def operation(f, s, opt):
 f = int(input("Enter the first number: "))
 
 while True:
-    s = input("Enter the other number (type the letter s to stop): ")
+    s = input("Enter the other number (type the letter \"s\" to stop): ")
     if s == 's':
         print("Done")
         break
